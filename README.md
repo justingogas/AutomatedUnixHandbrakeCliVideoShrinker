@@ -19,6 +19,8 @@ The script uses ~/Videos/encode/ as its default folder with the two essential sc
 
 A second script, resetEncode.bash, needs to be run on system startup.  This will reset any encoding jobs that were run if the system was interrupted.  If it exists, the current encode will be restarted from its last known encode quality.  If this is not run, then an interrupted encode will prevent a new encode process from starting.  The running of a script on startup differs depending on your version of UNIX, so use the method for your distribution.
 
+UNIX Basic Calculator (bc) is also a requirement for this script.  Install it if you do not have it already: https://www.tecmint.com/bc-command-examples/
+
 ## Usage
 
 When the scripts and all folders are in place, cron the encode script:
