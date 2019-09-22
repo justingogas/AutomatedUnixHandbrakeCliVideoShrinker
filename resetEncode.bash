@@ -6,5 +6,5 @@
 
 path="~/Videos/encode"
 
-rm $path/working/*
-mv $path/queue/* $path/source
+eval rm $path/working/*
+eval mv $path/queue/* $path/source
